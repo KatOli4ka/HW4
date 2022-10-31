@@ -12,10 +12,10 @@ public class Main {
         int iOS=1;
         int android=0;
         if (clientDeviceYear<2015 && iOS==1) {
-            System.out.println("Установите облегченную версию приложения для iOS по ссылке");
-            if (clientDeviceYear >= 2015 || iOS == 1) {
+            System.out.println("Установите облегченную версию приложения для iOS по ссылке");}
+            else if (clientDeviceYear >= 2015 && iOS == 1) {
                 System.out.println("Установите приложение для iOS по ссылке");
-            } else if (clientDeviceYear < 2015 || android == 0) {
+             if (clientDeviceYear < 2015 && android == 0) {
                 System.out.println("Установите облегченную версию приложения для Android по ссылке");
             } else {
                 System.out.println("Установите приложение для Android по ссылке");

@@ -8,7 +8,7 @@ public class Main {
 
 
 
-        int clientDeviceYear =2014;
+        int clientDeviceYear =2015;
         int iOS=1;
         int android=0;
         if (clientDeviceYear<2015 && iOS==1) {
@@ -40,14 +40,14 @@ public class Main {
         int day2=day+1;
         int day3=day2+1;
         if (deliveryDistance<20) {
-            System.out.println("Потребуется " + day + " день на доставку");
+            System.out.println("Потребуется " + day + " день на доставку");}
             if (deliveryDistance >= 20 && deliveryDistance < 60) {
                 System.out.println("Потребуется " + day2 + " дня на доставку");
             } else if (deliveryDistance >= 60 && deliveryDistance < 100) {
                 System.out.println("Потребуется " + day3 + " дня на доставку");
-            } else {
-                System.out.println("ничего");
-            }}
+            } else System.out.println("Одну минуточку, уточню эту информацию");
+
+
 
         int monthNumber=12;
         switch(monthNumber){

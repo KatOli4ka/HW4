@@ -8,20 +8,19 @@ public class Main {
 
 
 
-        int clientDeviceYear =2015;
+        int clientDeviceYear =2014;
         int iOS=1;
         int android=0;
-        if (clientDeviceYear<2015 && iOS==1) {
+        if (clientDeviceYear>=2015 && iOS==1) {
+            System.out.println("Установите приложени для iOS по ссылке");}
+        else {
             System.out.println("Установите облегченную версию приложения для iOS по ссылке");}
-            else if (clientDeviceYear >= 2015 && iOS == 1) {
-                System.out.println("Установите приложение для iOS по ссылке");
-             if (clientDeviceYear < 2015 && android == 0) {
-                System.out.println("Установите облегченную версию приложения для Android по ссылке");
-            } else {
-                System.out.println("Установите приложение для Android по ссылке");
-            }
-
+        if (clientDeviceYear >= 2015 && android == 0){
+            System.out.println("Установите приложение для Android по ссылке");}
+        else{ System.out.println("Установите облегченную версию приложения для Android по ссылке");
         }
+
+
 
 
 

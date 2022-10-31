@@ -35,7 +35,45 @@ public class Main {
 
 
 
+        int deliveryDistance = 95;
+        int day=1;
+        int day2=day+1;
+        int day3=day2+1;
+        if (deliveryDistance<20) {
+            System.out.println("Потребуется " + day + " день на доставку");
+            if (deliveryDistance >= 20 && deliveryDistance < 60) {
+                System.out.println("Потребуется " + day2 + " дня на доставку");
+            } else if (deliveryDistance >= 60 && deliveryDistance < 100) {
+                System.out.println("Потребуется " + day3 + " дня на доставку");
+            } else {
+                System.out.println("ничего");
+            }}
+
+        int monthNumber=12;
+        switch(monthNumber){
+            case 1:
+            case 2:
+            case 3:
+                System.out.println("Зима");
+                break;
+            case 4:
+            case 5:
+            case 6:
+                System.out.println("Весна");
+                break;
+            case 7:
+            case 8:
+            case 9:
+                System.out.println("Лето");break;
+            case 10:
+            case 11:
+            case 12:
+                System.out.println("Осень");
+                break;
+            default:
+               System.out.println("Такого месяца не существует");}
+    }
+
+}
 
 
-
-    }}
